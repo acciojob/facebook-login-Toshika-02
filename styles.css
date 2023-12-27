@@ -14,20 +14,25 @@
         }
 
         .left {
-            width: 450px;
+            width: 350px;
             margin-top: 70px;
             display: inline-block;
+			
         }
+         .left p{
+			 font-size: 10px;
+			 text-align: center;
+		 }
 
         .right {
             display: flex;
             flex-direction: column;
-            width: 300px;
+            width: 270px;
             background-color: white;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px #ccc;
-            gap: 10px;
+            gap: 30px;
         }
 
         form {
@@ -38,7 +43,11 @@
             border: 1px solid #ccc;
             border-radius: 5px;
             padding: 10px;
+			
         }
+         input:not(:last-child) {
+               margin-bottom: 15px;
+}
 
         button {
             background-color: #1877f2;
