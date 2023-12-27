@@ -25,7 +25,7 @@
 		 }
 
         .right {
-            display: flex;
+            display: inline-block;
             flex-direction: column;
             width: 270px;
             background-color: white;
@@ -33,6 +33,7 @@
             border-radius: 5px;
             box-shadow: 0 0 10px #ccc;
             gap: 30px;
+			margin-right: 70px
         }
 
         form {
